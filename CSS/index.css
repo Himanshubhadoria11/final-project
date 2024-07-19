@@ -28,6 +28,9 @@
  .moblogo{
     display: none;
  }
+ 
+
+
 
 
  .g{
@@ -36,7 +39,7 @@
     height: 670px;
     background-position: center;
     background-size: cover;
-    
+       
 
  }
   .col-md-8{
@@ -148,7 +151,25 @@ footer .img1234{
  }
 
  /* ABOUT CSS STARt */
-
+ .u{
+    text-align: center;
+    padding-top: 20px;
+    
+    text-transform: uppercase;
+    font-family: 'prague';
+    letter-spacing: 3px;
+}
+.v{
+    line-height: 35px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+    text-align: justify;
+}
+.imgw{
+    width: 80%;
+    margin-bottom: 20px;
+}
 
 
  /* ABOUT CSS STARt */
@@ -164,7 +185,7 @@ footer .img1234{
     width: 300px;
     height: 400px;
     float: left;
-    margin: 26px;
+    margin: 38px;
     background-color: white;
     box-shadow: 4px 4px 4px rebeccapurple;
 }
@@ -184,6 +205,7 @@ footer .img1234{
     font-size: 17px;
     border: none;
     border-radius: 7px;
+   
 }
 .banner{
     background: url(IMAGE/G.jpg);
@@ -228,5 +250,11 @@ footer .img1234{
         font-size: 25px;
     
      }
+}
+@media (min-width: 768px) {
+    .col-md-4 {
+        flex: 0 0 auto;
+        width: 33.33333333%;
+    }
 }
 
