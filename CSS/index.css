@@ -1,0 +1,232 @@
+ /* nav css */
+
+ .weblogo{
+    width: 65px;
+ }
+
+ .navbar{
+    background: orange !important;
+ }
+
+ 
+ .navbar-nav li{
+    padding: 0 10px;
+ }
+
+ .navbar-nav li a{
+    color: white !important;
+    font-weight: 600;
+    font-family: cursive;
+    font-size: 20px;
+
+ }
+ .navbar span{
+    color: purple!important;
+    font-size: 30px;
+ }
+
+ .moblogo{
+    display: none;
+ }
+
+
+ .g{
+    background: url(../IMAGE/360_F_761720710_ltsBP7xxZK9Z2KeJxEL5u4xUGGH1YmdO.jpg);
+    width: 100%;
+    height: 670px;
+    background-position: center;
+    background-size: cover;
+    
+
+ }
+  .col-md-8{
+    position: relative;
+    top: 320px;
+ }
+ .col-md-8 input{
+    width: 600px;
+    height: 38px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: white;
+    background: rgba(0, 0, 0, 0.8);
+    padding-left: 10px;
+ }
+ ::placeholder{
+    color: white;
+ }
+
+ .b{
+    text-align: center;
+    padding-top: 20px;
+    
+    text-transform: uppercase;
+    font-family: 'prague';
+    letter-spacing: 3px;
+}
+.c{
+    line-height: 35px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+    text-align: justify;
+}
+.img123{
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.photo1 {
+    background-image: url(https://www.drishtiias.com/images/uploads/1659769430_Drishti%20IAS%20Online%20Courses%20Image.png);
+    width: 100%;
+    height: 8.8cm;
+    background-position: center;
+    background-size: cover;
+}
+.photo2 {
+    background-image: url(../IMAGE/My\ first\ design\ 1\ \(1\).png);
+    width: 100%;
+    height: 8.8cm;
+    background-position: center;
+    background-size: cover;
+}
+.photo3 {
+    background-image: url( https://static.vecteezy.com/system/resources/previews/006/431/387/non_2x/online-content-writing-flat-icon-of-blogging-vector.jpg);
+    width: 100%;
+    height: 8.8cm;
+    background-position: center;
+    background-size: cover;
+}
+
+.photo4 {
+    background-image: url(../IMAGE/4600166.jpg);
+    width: 100%;
+    height: 8.8cm;
+    background-position: center;
+    background-size: cover;
+}
+.photo5 {
+    background-image: url(https://www.kindpng.com/picc/m/235-2350524_store-vector-icon-retail-store-icon-png-transparent.png);
+    width: 100%;
+    height: 8.8cm;
+    background-position: center;
+    background-size: cover;
+}
+
+footer{
+    background:blue;
+    padding: 50px;
+    color: #fff;
+}
+footer .img1234{
+    width: 50%;
+    margin-top: 30px;
+}
+
+
+
+
+         /* CSS end */
+
+ /* CONTACT CSS START */
+ .p{
+    background-image: url(../IMAGE/contact\ image.avif);
+    width: 100%;
+    height: 670px;
+    background-position: center;
+    background-size: cover;
+ }
+
+ /* CONTACT CSS START */
+ .r{
+    background-image: url(../IMAGE/about.jpg);
+    width: 100%;
+    height: 670px;
+    background-position: center;
+    background-size: cover;
+ }
+
+ /* ABOUT CSS STARt */
+
+
+
+ /* ABOUT CSS STARt */
+
+ /* COURSES CSS START */
+ body {
+    /* background: #bcbcbc; */
+    background: white;
+}
+
+ .z{
+    border: 2px solid white;
+    width: 300px;
+    height: 400px;
+    float: left;
+    margin: 26px;
+    background-color: white;
+    box-shadow: 4px 4px 4px rebeccapurple;
+}
+
+/* .b {
+    border: 5px solid red;
+    text-align: center;
+    background: blue;
+    color: white;
+} */
+
+.z button {
+    width: 187px;
+    height: 35px;
+    background: indigo;
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 7px;
+}
+.banner{
+    background: url(IMAGE/G.jpg);
+    width: 100%;
+    height: 500px;
+}
+
+
+
+ 
+/* COURSES CSS END */
+
+
+    .aa {
+        border: 4px solid black;
+        text-align: center;
+        font-size: 40px;
+       
+        color: red;
+        font-family: cursive;
+    }
+
+ 
+ @media(max-width:768px)
+{
+    .moblogo{
+        display: block;
+    }
+    .weblogo{
+        display: none;
+    }
+    .navbar{
+        background: violet !important;
+     }
+    .a {
+        display: none;
+    }
+    .navbar-nav li a{
+        color: white !important;
+        font-weight: 600;
+        font-family: cursive;
+        font-size: 25px;
+    
+     }
+}
+
